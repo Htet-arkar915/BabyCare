@@ -1,0 +1,25 @@
+<resources>
+    <string name="title_activity_maps">Map</string>
+    <string name="error_location_provider" />
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="app_name">BabyCare</string>
+    <string name="question_overview_title">အေမး၊ အေျဖမ်ား</string>
+    <string name="question_mother_title">ႏို႔တိုက္ေကြၽးျခင္းအေၾကာင္း</string>
+    <string name="question_physical_title">ေရာဂါ မ်ားအေၾကာင္း</string>
+    <string name="question_detail_title">အေမး၊ အေျဖ</string>
+    <string name="questiion_general_title">မိဘမ်ား၏အယူအဆ အမွားမ်ား ႏွင့္ အေထြေထြဗဟုသုတမ်ား</string>
+    <string name="question_characteristics_title">ေမြးကင္းစကေလးငယ္၏သြင္ျပင္ လကၡဏာမ်ား</string>
+    <string name="question_habit_urine">ကေလးငယ္မ်ား၏ ဆီး၊ ဝမ္းအက်င့္</string>
+    <string name="question_about_milk">ႏို႔တိုက္ေကြၽးျခင္း</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="checkinternet">အင္တာနက္ဖြင့္ရန္လိုအပ္ပါသည္</string>
+    <string name="action_add_favourite">Add to Favourites</string>
+    <string name="action_play_next">Play Next</string>
+    <string name="backdrop_title">Baby Care</string>
+    <string name="backdrop_subtitle">This season top 20 albums</string>
+</resources>

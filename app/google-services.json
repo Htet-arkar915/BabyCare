@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "708043609852",
+    "firebase_url": "https://myschoolserver-dcae9.firebaseio.com",
+    "project_id": "myschoolserver-dcae9",
+    "storage_bucket": "myschoolserver-dcae9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:708043609852:android:e0d9c2bb52c023d9",
+        "android_client_info": {
+          "package_name": "com.example.dell.babycare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "708043609852-fjdjiac21b53e6l38mtkri4r878je1ad.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dell.babycare",
+            "certificate_hash": "98d39f34f1e25d5c411c880f5dc84fec6ce8d558"
+          }
+        },
+        {
+          "client_id": "708043609852-6rs09ncipjd0fok33m5g77ri0i2u56s2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCT7zRxidk55pyIsyFIimM_kqK-4u7NcAE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "708043609852-6rs09ncipjd0fok33m5g77ri0i2u56s2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

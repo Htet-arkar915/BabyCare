@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bbak"
+    >
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/happytool"
+        android:title="သားေလးေပ်ာ္ဖုိ ့"
+        android:background="@color/colorPrimary"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:popupTheme="@style/AlertDialog.AppCompat.Light"/>
+    </android.support.design.widget.AppBarLayout>
+    <Button
+        android:id="@+id/video_play"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:text="Video"
+        android:textColor="@color/white"
+        android:background="@drawable/happy_button"
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center_horizontal"/>
+    <Button
+        android:id="@+id/void_zoo"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:text="zoo"
+        android:textColor="@color/white"
+        android:background="@drawable/happy_button"
+        android:layout_marginTop="60dp"
+        android:layout_gravity="center_horizontal"/>
+    <Button
+        android:id="@+id/phone_void"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:text="phone"
+        android:textColor="@color/white"
+        android:background="@drawable/happy_button"
+        android:layout_marginTop="60dp"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>

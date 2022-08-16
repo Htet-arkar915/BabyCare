@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dell.babycare.Activities.developmentActivities.firebaseImageUpload.FragmentOneImageUpload">
+       <ImageView
+           android:layout_width="match_parent"
+           android:layout_height="350dp"
+           android:id="@+id/fOne_image"
+           android:src="@mipmap/qanda"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/development_edittext"
+        android:layout_below="@id/fOne_image"
+        android:hint="Enter Titile"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/development_position"
+        android:layout_below="@id/development_edittext"
+        android:hint="Enter Position"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/getImage"
+        android:text="Get Image"
+        android:layout_centerInParent="true"
+        android:background="#edecd2"
+        android:layout_below="@+id/development_position"
+       />
+        <Button
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/getImage"
+            android:text="Upload"
+            android:id="@+id/fOne_upload"
+            android:layout_centerInParent="true"
+            android:background="#edecd2"/>
+
+</RelativeLayout>

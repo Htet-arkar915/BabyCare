@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/tool"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+    <!--<android.support.v7.widget.CardView
+        android:layout_below="@+id/tool"
+        android:id="@+id/mycard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:elevation="3dp"
+        card_view:cardElevation="2dp"
+        card_view:cardCornerRadius="5dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginRight="8dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="8dp">
+            <TextView
+                android:id="@+id/hvideo_title"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:textAlignment="center"
+                android:text="how to care baby"
+                android:textSize="16dp"/>
+
+            <com.google.android.youtube.player.YouTubePlayerView
+                android:id="@+id/hvideoplayer"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"/>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>-->
+    <ProgressBar
+        android:id="@+id/progress_vd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"/>
+    <android.support.v7.widget.RecyclerView
+        android:layout_marginTop="4dp"
+        android:layout_below="@+id/tool"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recycle_videoview">
+
+    </android.support.v7.widget.RecyclerView>
+</RelativeLayout>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#B944ac25"
+        android:id="@+id/tool"
+        android:titleTextColor="@color/white"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+
+        />
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tool">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tool"
+       >
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="16dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:id="@+id/upper"
+            android:layout_height="match_parent"
+            android:layout_margin="8dp">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/profile"
+            android:background="@mipmap/ic_people"
+            android:src="@mipmap/ic_proicon"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/profile"
+                android:text="ကိုယ္ေရးဓာတ္ပံုျဖည့္ရန္"
+                android:textColor="#9e9e9e"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="4dp"
+                android:id="@+id/textttt"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textttt"
+        android:text="အေကာင့္အမည္"
+        android:textColor="#9e9e9e"
+        android:padding="8dp"
+        android:textSize="16dp"
+        android:id="@+id/nametext"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@+id/nametext"
+        android:background="@drawable/account_text_style"
+        android:id="@+id/shine_edit"
+        android:padding="8dp"
+        android:singleLine="true"
+        android:layout_margin="8dp"
+       />
+
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/shine_edit"
+        android:text="အေကာင့္စကားဝွက္"
+        android:padding="8dp"
+        android:textSize="16dp"
+        android:textColor="#9e9e9e"
+        android:id="@+id/passwordtext"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/account_text_style"
+        android:id="@+id/passwordedit"
+        android:padding="8dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginRight="8dp"
+        android:layout_below="@+id/passwordtext"
+        android:layout_alignLeft="@+id/birthedit"
+        android:layout_alignStart="@+id/birthedit"
+        android:singleLine="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/passwordedit"
+        android:text="ေမြးေန့"
+        android:textColor="#9e9e9e"
+        android:textSize="16dp"
+        android:padding="8dp"
+        android:id="@+id/birthtext"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@+id/birthtext"
+      android:background="@drawable/account_text_style"
+        android:id="@+id/birthedit"
+        android:layout_margin="8dp"
+android:singleLine="true"
+        android:padding="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/birthedit"
+        android:text="တိုင္းေဒသၾကီး"
+        android:textSize="16dp"
+        android:padding="8dp"
+        android:textColor="#9e9e9e"
+        android:id="@+id/timetext"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@+id/timetext"
+        android:background="@drawable/account_text_style"
+
+        android:layout_margin="8dp"
+        android:padding="8dp"
+        android:id="@+id/timeedit"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/timeedit"
+        android:text="ျမိဳ႕နယ္"
+        android:textColor="#9e9e9e"
+        android:textSize="16dp"
+        android:padding="8dp"
+        android:id="@+id/citytext"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@+id/citytext"
+        android:layout_margin="8dp"
+        android:background="@drawable/account_text_style"
+        android:padding="8dp"
+        android:id="@+id/cityedit"/>
+
+        <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="အေကာင့္ဖြင့္မည္"
+        android:layout_below="@+id/cityedit"
+            android:layout_margin="8dp"
+        android:layout_marginBottom="16dp"
+        android:background="#c9214ab9"
+        android:textColor="@color/white"
+        android:id="@+id/btnok"/>
+    </RelativeLayout>
+        </android.support.v7.widget.CardView>
+    </RelativeLayout>
+
+
+    </android.support.v4.widget.NestedScrollView>
+</RelativeLayout>

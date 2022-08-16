@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ေဆြးေႏြးခ်က္"
+        android:textColor="#000000"
+        android:layout_marginTop="16dp"
+        android:textSize="16dp"
+       android:id="@+id/comment"
+        android:layout_marginLeft="8dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:id="@+id/view"
+        android:layout_marginTop="8dp"
+        android:layout_below="@+id/comment"
+        android:background="#000000"/>
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/linear"
+        android:layout_below="@+id/view"
+        android:id="@+id/commentrecycler"
+        />
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/linear"
+    android:layout_alignParentBottom="true"
+    >
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   android:id="@+id/commenttext"
+    android:layout_toLeftOf="@+id/commentbutton"/>
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:text="ok"
+        android:layout_margin="8dp"
+        android:src="@mipmap/ic_send"
+        android:layout_alignParentRight="true"
+        android:id="@+id/commentbutton"/>
+</RelativeLayout>
+</RelativeLayout>
